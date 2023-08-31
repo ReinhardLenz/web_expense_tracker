@@ -9,9 +9,8 @@ In a month, the data is shown like this, similar to an Excel table
 
 
 
-In the year sheet,some of the columns are editable (Income, Rent, Bank, Electricity, insurance) , the rest is taken over from the month tables
-By clicking Export button, an Excel file is generated, which can then be saved
-
+In the year sheet,some of the columns are editable (Income, Rent, Bank, Electricity, insurance). This is because income, electricity, and similar costs are month based, and normally would be filled out only rarely, maybe only at the end of the year. the rest is taken over from the month tables
+By clicking Export button, an Excel file is generated, which can then be saved. The Excel has good tools to  generate beatiful charts.
 
 ![expensetracker2](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/0d7d8827-a78f-487e-9c59-2cdf7bc097ec)
 
