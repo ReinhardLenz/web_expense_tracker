@@ -29,5 +29,8 @@ Inspiration for this from the web page:
 
 https://www.martat.fi/wp-content/uploads/2021/03/Budjetointivalineet-marttailtaan.pdf
 
+Mysql database:
 
 
+
+![expensetracker3](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/3ef765ca-d5ba-4957-a846-d8d877e82949)
