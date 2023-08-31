@@ -12,9 +12,8 @@ In a month, the data is shown like this, similar to an Excel table
 In the year sheet,some of the columns are editable (Income, Rent, Bank, Electricity, insurance) , the rest is taken over from the month tables
 By clicking Export button, an Excel file is generated, which can then be saved
 
+![expensetracker2](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/6d58b09d-0ba9-43eb-bd4d-e99789842efe)
 
-
-![expensetracker2](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/8aba20ab-79c9-4c0e-b3bf-3fac0f982d10)
 
 Month	Income	Food	Food	Rent	Traffic	Bank	Electricity	Insurance	Home	Recreation	Other	Result	Comments
 Total
