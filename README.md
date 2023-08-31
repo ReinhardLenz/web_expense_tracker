@@ -37,6 +37,9 @@ Mysql database of month:
 ![expensetracker3](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/3ef765ca-d5ba-4957-a846-d8d877e82949)
 
 
+
+![expensetracker6](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/1fac5e1a-4b17-431d-a4a6-ef4cfd9d690d)
+
 Mysql database of year
 
 
