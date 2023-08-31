@@ -26,9 +26,9 @@ Average
 Submit
 
 Export
+Inspiration for this from the web page:
 
-
-
+https://www.martat.fi/wp-content/uploads/2021/03/Budjetointivalineet-marttailtaan.pdf
 
 
 
