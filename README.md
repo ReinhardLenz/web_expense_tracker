@@ -47,34 +47,63 @@ Yearly Data (MySQL):
 🌐 Interface Terms (Finnish → English)
 Finnish Term	English Translation
 Tulot	Income
+
 Asuminen	Rent
+
 Nordea	Bank
+
 Sähkö	Electricity
+
 Vakuutukset	Insurance
+
 Ruokailu kotona	Food at home
+
 Ruokailu ulkona	Eating out
+
 Liikenne	Traffic/Transport
+
 Kodin hankinnat	Home purchases
+
 Virkistys	Recreation
+
 Muut menot	Other expenses
+
 Tulos	Result
+
 Keskiarvo/viikko	Average per week
+
 Keskiarvo/päivä	Average per day
+
 Ei painike painettu	No button pressed
+
 Kuukausi on laitettu...	Month is set to...
+
 Finnish Month Names
+
 Finnish	English
+
 Tammikuu	January
+
 Helmikuu	February
+
 Maaliskuu	March
+
 Huhtikuu	April
+
 Toukokuu	May
+
 Kesäkuu	June
+
 Heinäkuu	July
+
 Elokuu	August
+
 Syyskuu	September
+
 Lokakuu	October
+
 Marraskuu	November
+
 Joulukuu	December
 ________________________________________
 ⚙️ How It Works
