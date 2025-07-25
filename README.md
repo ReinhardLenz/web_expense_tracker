@@ -1,7 +1,10 @@
-web_expense_tracker
-simple web based expense tracker, based on example of farmer's women association example. 
-In a month, the data is shown like this, similar to an Excel table
-I am sorry, but I wrote this mostly for myself as a self-teaching, so the expressions are in finnish, below translation of the terms:
+📊 Web Expense Tracker
+A simple web-based expense tracker, originally inspired by budgeting tools from the Farmer’s Women's Association. This tool allows monthly and yearly tracking of expenses, with automatic calculations and Excel export functionality. Built primarily as a self-learning project, the interface and labels are mostly in Finnish – a glossary is provided below.
+________________________________________
+🖼️ Screenshots
+Monthly View
+In each month view, data is displayed similarly to an Excel spreadsheet:
+
 
 
 ![expensetracker1](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/0748fcb6-23ca-4ca9-aa6c-85ef030f1c26)
@@ -9,28 +12,24 @@ I am sorry, but I wrote this mostly for myself as a self-teaching, so the expres
 
 
 
+________________________________________
+Yearly Overview
+Some columns like Income, Rent, Bank, Electricity, and Insurance are editable directly in the year view. These fields typically change less frequently and are often filled in at the end of the year. All other data is aggregated from monthly entries.
+Clicking the Export button generates an Excel file, which you can save and use for visualization:
 
-In the year sheet,some of the columns are editable (Income, Rent, Bank, Electricity, insurance). This is because income, electricity, and similar costs are month based, and normally would be filled out only rarely, maybe only at the end of the year. the rest is taken over from the month tables
-By clicking Export button, an Excel file is generated, which can then be saved. The Excel has good tools to  generate beatiful charts.
 
 ![expensetracker2](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/0d7d8827-a78f-487e-9c59-2cdf7bc097ec)
 
-
-Month	Income	Food	Food	Rent	Traffic	Bank	Electricity	Insurance	Home	Recreation	Other	Result	Comments
-Total
-Average
-/week
-
-
-
-Submit
-
-Export
-Inspiration for this from the web page:
-
-https://www.martat.fi/wp-content/uploads/2021/03/Budjetointivalineet-marttailtaan.pdf
-
-Mysql database of month:
+________________________________________
+🧩 Features
+•	✅ Monthly and yearly views of income and expenses
+•	📝 Editable fields for key categories (income, rent, etc.)
+•	📈 Excel export with structured formatting for easy charting
+•	📅 Automatic detection of the current month on page load
+•	📊 Data stored in MySQL tables for both month and year views
+________________________________________
+🗄️ Database Structure
+Monthly Data (MySQL):
 
 
 
@@ -40,42 +39,60 @@ Mysql database of month:
 
 ![expensetracker6](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/1fac5e1a-4b17-431d-a4a6-ef4cfd9d690d)
 
-Mysql database of year
-
+Yearly Data (MySQL):
 
 
 ![expensetracker5](https://github.com/ReinhardLenz/web_expense_tracker/assets/71219487/f124ad27-8924-4dff-8c45-05f343095227)
 
-
-Dictionary:
-Tulot: income
-Asuminen:rent
-nordea:Bank
-Sähkö:electricity
-vakuutukset: insurance
-Ruokailu kotona:food at home
-Ruokailu ulkona: food at restaurant
-Liikenne: traffic
-Kodin hankinnat: Purchases for home
-virkistys: pleasure
-muut menot: other expenses
-tulos: result
-Tammikuu: January
-Helmikuu: February
-Maaliskuu: March
-huhtikuu: April
-toukokuu: May
-kesäkuu: June
-heinäkuu: July
-elokuu: August
-syyskuu: September
-Lokakuu: October
-marraskuu: November
-joulukuu: December
-keskiarvo/viikko: average/week
-keskiarvo/päivä: Average/day
-ei painike painettu: no button pressed
-Kuukausi on laitettu Elokuu: Month is set to August (The program is set so, that when the web page is opened, the 
-program detects the actual month from computer date and sets the month to actual. But the month can still be changed
-from the upper menue, in case I forgot to put something or if there is an expense upcoming in the future..
+🌐 Interface Terms (Finnish → English)
+Finnish Term	English Translation
+Tulot	Income
+Asuminen	Rent
+Nordea	Bank
+Sähkö	Electricity
+Vakuutukset	Insurance
+Ruokailu kotona	Food at home
+Ruokailu ulkona	Eating out
+Liikenne	Traffic/Transport
+Kodin hankinnat	Home purchases
+Virkistys	Recreation
+Muut menot	Other expenses
+Tulos	Result
+Keskiarvo/viikko	Average per week
+Keskiarvo/päivä	Average per day
+Ei painike painettu	No button pressed
+Kuukausi on laitettu...	Month is set to...
+Finnish Month Names
+Finnish	English
+Tammikuu	January
+Helmikuu	February
+Maaliskuu	March
+Huhtikuu	April
+Toukokuu	May
+Kesäkuu	June
+Heinäkuu	July
+Elokuu	August
+Syyskuu	September
+Lokakuu	October
+Marraskuu	November
+Joulukuu	December
+________________________________________
+⚙️ How It Works
+•	The app detects the current month on page load using the system date and automatically opens the relevant sheet.
+•	Users can override this selection from the top menu if they need to update past or future data.
+•	After submitting data, the Export button generates an Excel file for download.
+•	The Excel file includes all data for the selected year and can be used to create charts and insights manually.
+________________________________________
+📚 Inspiration
+This project was inspired by a budgeting guide from Martat.fi:
+👉 Budjetointivälineet Marttailtaan (PDF)
+________________________________________
+📦 Technologies Used
+•	HTML/CSS + JavaScript (Front-End)
+•	PHP (Back-End logic)
+•	MySQL (Data Storage)
+•	Excel export via PHP or JavaScript libraries
+________________________________________
+🧠 Notes
+This app was originally created for personal use and self-study. It's simple, but functional, and written primarily in Finnish to suit local use cases.
 
