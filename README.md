@@ -125,3 +125,7 @@ ________________________________________
 🧠 Notes
 This app was originally created for personal use and self-study. It's simple, but functional, and written primarily in Finnish to suit local use cases.
 
+
+![Visitor Count](https://komarev.com/ghpvc/?username=ReinhardLenz&repo=web_expense_tracker&color=green)
+
+
